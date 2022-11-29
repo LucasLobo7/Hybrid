@@ -1,7 +1,7 @@
 clear all
-load PhasedifQn.mat
-load phaseIn.mat
-load phasedifQIN.mat
+load PhasedifQn_N.mat
+load phaseIn_N.mat
+load phasedifQIN_N.mat
 %CREATEFIT(FREQDIF)
 %  Create a fit.
 %
@@ -82,4 +82,4 @@ ylabel freqdif
 grid on
 
 
-save ('coeficientes.mat', 'cofQ', 'cofI', 'cofQI')
+save ('coeficientes_N.mat', 'cofQ', 'cofI', 'cofQI')
